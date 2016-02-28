@@ -16,6 +16,7 @@
 </head>
 <body>
     <!-- ナビゲーションバーの設定 -->
+<script>$("div.navbar-fixed-top").autoHidingNavbar();</script>
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <!-- リストの配置 -->
@@ -28,11 +29,11 @@
             "http://peregrine.me/index.html">Hayabusa's works</a>
             <ul class="nav navbar-nav">
                 <li class="active">
-                    <a href="http://peregrine.me/about.html">About</a>
+                    <a href="http://peregrine.me/index.html">Index</a>
                 </li>
                 <li>
                     <a href=
-                    "file:///C:/Users/Yuta_hayabusa/Desktop/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E3%81%AE%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B/%E4%BD%9C%E6%A5%AD/bootstrap-3.3.6-dist/profile.html">Profile</a>
+                    "http://peregrine.me/profile.html">Profile</a>
                 </li>
                 <li>
                     <a href=
@@ -61,43 +62,48 @@
     </nav>
 <!--content-->
     
-    <div class="container-fluid">
+    <div class="container">
         <div class="row" style="padding:60px 0 0 0">
             
             <!-- center -->
             <div class="col-xs-6 col-md-8">
                 <div class="page-header">
-                    <h2>ここは</h2>
+                    <h1>Hayabusa's Works</h1>
                 </div>
-                <p class="lead" style="padding-left:+30px;">特に価値の無い情報の掃き溜め．</p>
-                <p style="padding-left:+30px;">HTMLが全然わからないぼくが半日ぐらいで作りました．</p>
-                <p style="padding-left:+30px;">たねあかし↓</p>
-                <div class="media">
-                    <a class="media-left" href="#"><img src=
-                    "../img/bootstrap-outline.svg"></a>
-                    <div class="media-body">
-                        <h4 class="media-heading">Bootstrap</h4>
-			マジ神．
-                    </div>
+                
 		
-                    <div class="page-header" >
-                        <h2>めいんこんてんつー</h2>
+                    <div class >
+                        <h2>Contents</h2>
                     </div>
                     <div class="jumbotron">
-                        <h2>ぷろふぃーる</h2>
-                        <p style="padding-left:+20px;">ネタじゃねえからな</p>
+                        <h2>Profile</h2>
+                        <p style="padding-left:+20px;">ガバガバ</p>
                         <p><a class="btn btn-primary btn-lg" href=
-                        "./profile.html" role="button">よむ</a></p>
+                        "./profile.html" role="button">Read more</a></p>
                     </div>
                     <div class="jumbotron">
                         <h2>作ったもの</h2>
                         <p style="padding-left:+20px;">所謂ゴミ捨て場</p>
                         <p><a class="btn btn-primary btn-lg" href=
-                        "./distribution.html" role="button">見てみる</a></p>
+                        "./distribution.html" role="button">Read more</a></p>
                     </div>
+                   <h2>
+                       About</h2>
+                <p>@Hayabusaのメインサイトです．<br>
+                   HTML全くわからないぼくが適当に作っただけなのでいろいろとガバガバです．<br>
+                   見ないほうが幸せだと思いますが一応ソースは<a href="https://github.com/Hayabusa58/Hayabusa-s-works">Github</a>に置いてあります．<br>           
+                </p>
+                <h3>Support Browsers</h3>
+                <p>確認中．動作報告くれてもいいのよ．</p>
+                <h3>Using Libraries,Frameworks,Themes</h3>
+                 <ul type="disc">
+                 <li>Bootstrap</li>
+                 <li>Bootstrap Themes"Honoka"
+                 </li></ul>
                     <p>※ページ上部のナビゲーションバーからも各項目へ飛べます</p>
-                </div>
+                
 	</div>
+
 <!-- right Twitter -->
                 <div class="col-xs-6 col-md-4">
                     <a class="twitter-timeline" data-widget-id=
@@ -117,6 +123,6 @@
          
         <script src="js/bootstrap.min.js">
         </script> 
-    </div>
+    
 </body>
 </html>
