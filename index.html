@@ -16,40 +16,35 @@
 </head>
 <body>
     <!-- ナビゲーションバーの設定 -->
-<script>$("div.navbar-fixed-top").autoHidingNavbar();</script>
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- リストの配置 -->
-             <button class="navbar-toggle" data-target=".navbar-collapse"
-            data-toggle="collapse" type="button"><span class="icon-bar"></span>
-            <span class="icon-bar"></span> <span class=
-            "icon-bar"></span></button> 
-	     <!-- ヘッダ情報 -->
-             <a class="navbar-brand text-muted" href=
-            "http://peregrine.me/index.html">Hayabusa's works</a>
-            <ul class="nav navbar-nav">
-                <li class="active">
-                    <a href="http://peregrine.me/index.html">Index</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://peregrine.me/profile.html">Profile</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://blog.peregrine.me">Blog(別サイト)</a>
-                </li>
-                <li>
-                    <a href=
-                    "http://peregrine.me/distribution.html">Distribution</a>
-                </li>
-            </ul>
-	<!-- ドロップダウンメニューの作成 -->
-            <ul class="nav navbar-nav navbar-enter">
-                <li class="dropdown">
+
+<nav class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+        <!-- ヘッダ情報 -->
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggle"
+            data-toggle="collapse" data-target="#navbar-menu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://peregrine.me/index.html">Hayabusa's Works</a>
+        </div>
+        <!-- メニューの配置 -->
+        <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav" >
+        	<li class="active"><a href="http://peregrine.me/index.html">Index</a></li>
+            <li><a href="http://peregrine.me/profile.html">Profile</a></li>
+            <li><a href="http://peregrine.me/distribution.html">Distribution</a></li>
+            <li><a href="http://blog.peregrine.me">Blog(別サイト)</a></li>
+        </ul>
+        
+        
+        
+        <ul class="nav navbar-nav">
+        <li class="dropdown ">
                     <a class="dropdown-toggle" data-toggle="dropdown" href=
                     "#">Links<span class="caret"></span></a> 
-		<!-- メニューの配置 -->
+		
                     <ul class="dropdown-menu">
                         <li>
                             <a href="http://twitter.com/h_ya58">Twitter</a>
@@ -59,11 +54,13 @@
                             <a href="https://github.com/Hayabusa58">Github</a>
                         </li>
                     </ul>
-                </li>
-                <li></li>
-            </ul>
-        </div>
-    </nav>
+           </div>
+          
+    </div>
+</nav>
+
+
+           
 <!--content-->
     
     <div class="container">
